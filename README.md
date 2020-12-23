@@ -44,7 +44,7 @@ uvicorn example:app
 ## License
 Code and documentation are available according to the MIT License (see [LICENSE](license)).
 
-The Bottle logo however is NOT covered by that license. It is allowed to use the logo as a link to the repo or in direct context with the unmodified library. In all other cases, please ask first.
+The NanoASGI logo however is NOT covered by that license. It is allowed to use the logo as a link to the repo or in direct context with the unmodified library. In all other cases, please ask first.
 
 
 [LOGO](#logo) - [Perditax](https://commons.wikimedia.org/wiki/File:C20_Fullerene.png), CC0, via Wikimedia Commons
