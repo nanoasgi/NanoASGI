@@ -7,6 +7,11 @@ from typing import List, NamedTuple, Tuple, Union
 from urllib.parse import parse_qsl
 
 
+__author__ = 'Kavindu Santhusa'
+__version__ = '0.0.1-dev'
+__license__ = 'MIT'
+
+
 class MultiDict(Mapping):
     def __init__(self, items):
         self._data = defaultdict(list)
