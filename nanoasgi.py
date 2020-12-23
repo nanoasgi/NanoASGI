@@ -55,6 +55,15 @@ class CaselessMultiDict(MultiDict):
 
 
 class Request(NamedTuple):
+    type: str = 'http'
+    version: str
+    spec_version: str = '2.0'
+    http_version: str
+    scheme: str = 'http'
+    raw_path: Optional[bytes] = None
+    query_string: str
+    root_path: str = ''
+    
     path: str
     method: str
     headers: CaselessMultiDict
