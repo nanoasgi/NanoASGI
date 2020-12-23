@@ -1,3 +1,8 @@
+"""
+NanoASGI is a fast and simple micro-framework for small web applications.
+"""
+
+
 import json
 import re
 from collections import defaultdict
@@ -5,6 +10,11 @@ from collections.abc import Mapping
 from functools import partial
 from typing import List, NamedTuple, Tuple, Union
 from urllib.parse import parse_qsl
+
+
+__author__ = 'Kavindu Santhusa'
+__version__ = '0.0.1-dev'
+__license__ = 'MIT'
 
 
 class MultiDict(Mapping):
