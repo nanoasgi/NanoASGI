@@ -1,3 +1,8 @@
+"""
+NanoASGI is a fast and simple micro-framework for small web applications.
+"""
+
+
 import json
 import re
 from collections import defaultdict
