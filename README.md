@@ -5,7 +5,7 @@
 ![GitHub issues](https://img.shields.io/github/issues/nanoasgi/nanoasgi?logo=github&style=flat-square)
 ![GitHub top language](https://img.shields.io/github/languages/top/nanoasgi/nanoasgi?logo=python&style=flat-square&logoColor=9cf)
 ![GitHub Workflow Status](https://img.shields.io/github/workflow/status/nanoasgi/nanoasgi/Python%20package?logo=github)
-![GitHub](https://img.shields.io/github/license/nanoasgi/nanoasgi?style=flat-square)
+![GitHub](https://img.shields.io/github/license/nanoasgi/nanoasgi?style=flat-square&logo=github)
 
 
 #  NanoASGI: Asynchronous Python Web Framework
@@ -57,4 +57,4 @@ Code and documentation are available according to the MIT License:page_with_curl
 The NanoASGI logo however is NOT covered by that license. It is allowed to use the logo as a link to the repo or in direct context with the unmodified library. In all other cases, please ask first.
 
 
-[LOGO](#logo) - [Perditax](https://commons.wikimedia.org/wiki/File:C20_Fullerene.png), CC0, via Wikimedia Commons
+[**LOGO**](#logo) - [Perditax](https://commons.wikimedia.org/wiki/File:C20_Fullerene.png), CC0, via Wikimedia Commons
