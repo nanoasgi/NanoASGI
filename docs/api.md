@@ -19,7 +19,7 @@ methods to listen to. (default: `GET`)
 path is specified, it is automatically generated from the
 signature of the function.
 
-### def on(event)
+#### def on(event)
 A decorator to bind a function to an event. Example:
 ```python
 @app.on('startup')
