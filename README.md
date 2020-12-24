@@ -15,7 +15,7 @@ Download nanoasgi.py into your project directory. There are no hard dependencies
 
 ```python
 # example.py
-from nanoasgi import App
+from nanoasgi import App, Response
 
 
 app = App()
