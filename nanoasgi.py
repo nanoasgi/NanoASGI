@@ -55,6 +55,10 @@ class CaselessMultiDict(MultiDict):
 
 
 class Request(NamedTuple):
+    """ A combination of ASGI Request object and Scope that adds a lot of
+        convenient access methods and properties. Most of them are read-only.
+        This is the recommended way to store and access request-specific data.
+    """
     path: str
     method: str
     headers: CaselessMultiDict
@@ -71,6 +75,13 @@ class Request(NamedTuple):
 
 
 class Response(NamedTuple):
+    """ Storage class for a response body as well as headers and cookies.
+        :param data: The response body as one of the supported types.
+        :param status: An HTTP status code (e.g. 200).
+        :param headers: A dictionary or a list of name-value pairs.
+        Additional keyword arguments are added to the list of headers.
+        Underscores in the header name are replaced with dashes.
+    """
     data: Union[bytes, str, list, dict, None] = None
     status: int = 200
     headers: List[Tuple[str, str]] = []
@@ -90,14 +101,36 @@ class Response(NamedTuple):
 
 
 class App:
+    """
+    The ASGI application class of NanoASGI.
+    """
     def __init__(self):
         self._routes = []
         self._listeners = {}
 
     def route(self, method, path):
+        """A decorator to bind a function to a request URL. Example::
+                @app.route('GET', '/hello/<name>')
+                async def hello(request, name):
+                    return 'Hello %s' % name
+            The ``<name>`` part is a wildcard.
+
+            :param method: HTTP method (`GET`, `POST`, `PUT`, ...) or a list of
+              methods to listen to. (default: `GET`)
+            :param path: Request path or a list of paths to listen to. If no
+              path is specified, it is automatically generated from the
+              signature of the function.
+        """
         return partial(self._add_route, path, method)
 
     def on(self, event):
+        """A decorator to bind a function to an event. Example::
+                @app.on('startup')
+                async def on_startup():
+                    print('Ready to serve requests')
+
+            :param event: lifespan event (`startup`, `shutdown`, ...)  to listen to.
+        """
         return partial(self._add_event_listener, event)
 
     def _add_route(self, path, method, handler):
