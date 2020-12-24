@@ -5,6 +5,7 @@
 ![GitHub issues](https://img.shields.io/github/issues/nanoasgi/nanoasgi?logo=github&style=flat-square)
 ![GitHub top language](https://img.shields.io/github/languages/top/nanoasgi/nanoasgi?logo=python&style=flat-square&logoColor=9cf)
 ![GitHub Workflow Status](https://img.shields.io/github/workflow/status/nanoasgi/nanoasgi/Python%20package?logo=github)
+![GitHub](https://img.shields.io/github/license/nanoasgi/nanoasgi?style=flat-square)
 
 
 #  NanoASGI: Asynchronous Python Web Framework
