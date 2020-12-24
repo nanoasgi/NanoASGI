@@ -14,7 +14,7 @@ NanoASGI is a fast:zap:, simple and light:bulb:weight [ASGI](https://asgi.readth
 
 ## Download and Install
 
-Download nanoasgi.py into your project directory. There are no hard dependencies other than the Python standard library. NanoASGI runs with Python versions above 3.7.
+Download:arrow_down: nanoasgi.py into your project directory. There are no hard dependencies other than the Python standard library. NanoASGI runs with Python versions above 3.7.
 
 
 ## Example
