@@ -7,12 +7,14 @@ NanoASGI is a fast, simple and lightweight [ASGI](https://asgi.readthedocs.io "A
 
 
 ## Download and Install
+
 Download nanoasgi.py into your project directory. There are no hard dependencies other than the Python standard library. NanoASGI runs with Python versions above 3.7.
 
 
 ## Example
-# example.py
+
 ```python
+# example.py
 from nanoasgi import App
 
 
@@ -42,6 +44,7 @@ uvicorn example:app
 ```
 
 ## License
+
 Code and documentation are available according to the MIT License (see [LICENSE](license)).
 
 The NanoASGI logo however is NOT covered by that license. It is allowed to use the logo as a link to the repo or in direct context with the unmodified library. In all other cases, please ask first.
