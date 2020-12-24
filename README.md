@@ -7,7 +7,7 @@
 ![GitHub Workflow Status](https://img.shields.io/github/workflow/status/nanoasgi/nanoasgi/Python%20package?logo=github)
 
 
-#  NanoASGI: Asynchronous Python![python](https://img.shields.io/static/v1?label=%20&message=%20&logo=python&color=transparent&style=for-the-badge) Web Framework
+#  NanoASGI: Asynchronous Python![python](https://python.org/favicon.ico) Web Framework
 
 NanoASGI is a fast, simple and lightweight [ASGI](https://asgi.readthedocs.io "Asynchronous Server Gateway Interface") micro web-framework for Python:snake:. It is distributed as a single file module ![Lines of code](https://img.shields.io/tokei/lines/github/nanoasgi/nanoasgi?logo=github) and has no dependencies other than the [Python Standard Library.](http://docs.python.org/library/)
 
