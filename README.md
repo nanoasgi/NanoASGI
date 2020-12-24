@@ -52,7 +52,7 @@ uvicorn example:app
 
 ## License
 
-Code and documentation are available according to the MIT License:page_with_curl: (see [LICENSE](license)).
+Code and documentation are available according to the MIT License:page_with_curl: (see [LICENSE](LICENSE)).
 
 The NanoASGI logo however is NOT covered by that license. It is allowed to use the logo as a link to the repo or in direct context with the unmodified library. In all other cases, please ask first.
 
