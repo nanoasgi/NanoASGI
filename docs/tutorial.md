@@ -57,11 +57,11 @@ async def hello_handler(request, name):
         headers=[('Content-Type', 'application/json')],
     )
 ```
-This is it. Run this script, using an ASGI server like uvicorn
+This is it. Run this script, using an ASGI server like uvicorn. I'll use Unicorn.
 ```bash
 uvicorn example:app
 ```
-Visit  http://localhost:8080/hello/World!.  and you will see “Hello World!” in your browser. Here is how it works:
+Visit  http://localhost:8000/hello/World!.  and you will see “Hello World!” in your browser. Here is how it works:
 
 The  `route()` decorator binds a piece of code to an URL path. In this case, we link the  `/hello`  path to the  `hello_handler()`  function. This is called a  route  (hence the decorator name) and is the most important concept of this framework. You can define as many routes as you want. Whenever a browser requests a URL, the associated function is called and the return value is sent back to the browser. It’s as simple as that.
 
