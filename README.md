@@ -3,7 +3,7 @@
 
 ![Lines of code](https://img.shields.io/tokei/lines/github/nanoasgi/nanoasgi?logo=github&style=flat-square)
 ![GitHub issues](https://img.shields.io/github/issues/nanoasgi/nanoasgi?logo=github&style=flat-square)
-![GitHub top language](https://img.shields.io/github/languages/top/nanoasgi/nanoasgi?logo=python&style=flat-square&logoColor=9cf)
+![GitHub top language](https://img.shields.io/github/languages/top/nanoasgi/nanoasgi?logo=python&style=flat-square&labelColor=ff0)
 ![GitHub Workflow Status](https://img.shields.io/github/workflow/status/nanoasgi/nanoasgi/Python%20package?logo=github)
 ![GitHub](https://img.shields.io/github/license/nanoasgi/nanoasgi?style=flat-square&logo=github)
 [![GitHub issues](https://img.shields.io/github/issues/nanoasgi/NanoASGI?logo=github&style=flat-square)](https://github.com/nanoasgi/NanoASGI/issues)
@@ -11,14 +11,14 @@
 [![GitHub stars](https://img.shields.io/github/stars/nanoasgi/NanoASGI?logo=github&style=flat-square)](https://github.com/nanoasgi/NanoASGI/stargazers)
 [![GitHub license](https://img.shields.io/github/license/nanoasgi/NanoASGI?logo=github&style=flat-square)](https://github.com/nanoasgi/NanoASGI/blob/main/LICENSE)
 [![Twitter](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Fgithub.com%2Fnanoasgi%2FNanoASGI)](https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fgithub.com%2Fnanoasgi%2FNanoASGI)
-![PyPI - Implementation](https://img.shields.io/pypi/implementation/nanoasgi?logo=pypi&labelColor=lightyellow&style=flat-square)
-![PyPI - Python Version](https://img.shields.io/pypi/pyversions/nanoasgi?logo=python&labelColor=lightyellow&style=flat-square)
-![PyPI - Wheel](https://img.shields.io/pypi/wheel/nanoasgi?logo=pypi&labelColor=lightyellow)
-![PyPI](https://img.shields.io/pypi/v/nanoasgi?logo=pypi&labelColor=lightyellow)
-![PyPI - License](https://img.shields.io/pypi/l/nanoasgi?logo=pypi&labelColor=lightyellow&style=flat-square)
-![PyPI - Downloads](https://img.shields.io/pypi/dd/nanoasgi?logo=pypi&labelColor=lightyellow)
-![PyPI - Format](https://img.shields.io/pypi/format/nanoasgi?logo=pypi&labelColor=lightyellow)
-![PyPI - Status](https://img.shields.io/pypi/status/nanoasgi?logo=pypi&labelColor=lightyellow)
+![PyPI - Implementation](https://img.shields.io/pypi/implementation/nanoasgi?logo=pypi&labelColor=ff0&style=flat-square)
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/nanoasgi?logo=python&labelColor=ff0&style=flat-square)
+![PyPI - Wheel](https://img.shields.io/pypi/wheel/nanoasgi?logo=pypi&labelColor=ff0)
+![PyPI](https://img.shields.io/pypi/v/nanoasgi?logo=pypi&labelColor=ff0)
+![PyPI - License](https://img.shields.io/pypi/l/nanoasgi?logo=pypi&labelColor=ff0&style=flat-square)
+![PyPI - Downloads](https://img.shields.io/pypi/dd/nanoasgi?logo=pypi&labelColor=ff0)
+![PyPI - Format](https://img.shields.io/pypi/format/nanoasgi?logo=pypi&labelColor=ff0)
+![PyPI - Status](https://img.shields.io/pypi/status/nanoasgi?logo=pypi&labelColor=ff0)
 
 
 #  NanoASGI: Asynchronous Python Web Framework
