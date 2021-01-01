@@ -1,4 +1,8 @@
-
+---
+layout: default
+title: Tutorial
+nav_order: 2
+---
 # Tutorial
 
 This tutorial introduces you to the concepts and features of the NanoASGI web framework and covers basic and advanced topics alike. You can read it from start to end, or use it as a reference later on. The API Reference (not created yet) may be interesting for you, too. It covers more details, but explains less than this tutorial. Solutions for the most common questions can be found in our  Recipes(not created yet)  collection or on the  Frequently Asked Questions(not created yet)  page. If you need any help, join our  mailing list(not created yet)  or visit us in our  IRC channel(not created yet)
