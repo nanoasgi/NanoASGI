@@ -60,7 +60,7 @@ async def hello_handler(request, name):
 ```bash
 uvicorn example:app
 ```
-
+**See [Docs](docs) for more infomation.**
 ## License
 
 Code and documentation are available according to the MIT License:page_with_curl: (see [LICENSE](LICENSE)).
