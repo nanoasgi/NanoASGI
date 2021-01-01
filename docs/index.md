@@ -1,3 +1,8 @@
+---
+layout: default
+title: Docs
+nav_order: 1
+---
 #  NanoASGI: Asynchronous Python Web Framework
 
 NanoASGI is a fast:zap:, simple and light:bulb:weight [ASGI](https://asgi.readthedocs.io "Asynchronous Server Gateway Interface") micro:microscope: web:earth_asia:-framework for Python:snake:. It is distributed as a single file module and has no dependencies other than the [Python Standard Library.](http://docs.python.org/library/)
