@@ -1,5 +1,5 @@
 remote_theme: pmarsceill/just-the-docs
-logo: logo.png
+logo: complexlogo.png
 
 title: NanoASGI
 description: NanoASGI is a fast⚡, simple and light💡weight ASGI micro🔬 web 🌏-framework for Python🐍.
