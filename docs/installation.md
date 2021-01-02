@@ -1,3 +1,6 @@
+---
+nav_order: 2
+---
 ## INSTALLATION
 
 You’ll need Python 3.6 or newer to run NanoASGI applications. Run following command on your command prompt(cmd)/terminal to find the version of Python.
