@@ -1,2 +1,11 @@
 remote_theme: pmarsceill/just-the-docs
 logo: logo.png
+
+title: NanoASGI
+description: NanoASGI is a fast⚡, simple and light💡weight ASGI micro🔬 web 🌏-framework for Python🐍.
+url: "https://nanoasgi.github.io"
+
+back_to_top: true
+back_to_top_text: "Back to top"
+
+footer_content: "Copyright &copy; Kavindu Santhusa. Distributed by an <a href=\"https://github.com/nanoasgi/nanoasgi/tree/master/LICENSE.txt\">MIT license.</a>"
