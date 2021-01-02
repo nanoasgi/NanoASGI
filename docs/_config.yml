@@ -9,3 +9,9 @@ back_to_top: true
 back_to_top_text: "Back to top"
 
 footer_content: "Copyright &copy; Kavindu Santhusa. Distributed by an <a href=\"https://github.com/nanoasgi/nanoasgi/tree/master/LICENSE.txt\">MIT license.</a>"
+
+gh_edit_link: true
+gh_edit_link_text: "Edit this page on GitHub"
+gh_edit_repository: "https://github.com/nanoasgi/nanoasgi"
+gh_edit_branch: "main"
+gh_edit_view_mode: "tree"
