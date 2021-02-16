@@ -1,4 +1,4 @@
-[![logo](https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/C20_Fullerene.png/128px-C20_Fullerene.png)](#nolink)
+[![logo](docs/logo.png)](#nolink)
 [![logo text](docs/logotext.png)](#nolink)
 
 [![Lines of code](https://img.shields.io/tokei/lines/github/nanoasgi/nanoasgi?logo=github&style=flat-square)](#nolink)
