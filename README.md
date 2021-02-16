@@ -1,5 +1,4 @@
-[![logo](docs/logo.png)](#nolink)
-[![logo text](docs/logotext.png)](#nolink)
+[![logo](docs/complexlogo.png)](#nolink)
 
 [![Lines of code](https://img.shields.io/tokei/lines/github/nanoasgi/nanoasgi?logo=github&style=flat-square)](#nolink)
 [![GitHub issues](https://img.shields.io/github/issues/nanoasgi/nanoasgi?logo=github&style=flat-square)](#nolink)
