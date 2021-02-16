@@ -1,4 +1,5 @@
-# Contributor Covenant Code of Conduct
+
+# :clap:Contributor Covenant Code of Conduct
 
 ## Our Pledge
 
